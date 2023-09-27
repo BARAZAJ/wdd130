@@ -2,7 +2,7 @@
 
 
 :root {
-    --primary-color: #2B4EEB;
+    --primary-color:#8871FE ;
     --secondary-color: #53A548   ;
     --accent1-color: #eee82c ;
     --accent2-color: #19381f;
@@ -10,8 +10,9 @@
     --heading-font: 'Open-sans', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
 
-    --nav-background-color:  #53A548;
-    --nav-link-color:  #2B4EEB;
+    --nav-background-color: #8871FE;
+    --secondary-color: #53A548   ;
+    --nav-link-color:  #3E28A9;
     --nav-hover-link-color: #19381f    ;
     --nav-hover-background-color: #eee82c; }
 
