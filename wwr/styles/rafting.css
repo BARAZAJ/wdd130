@@ -21,7 +21,7 @@ p {
 font-family: var(--paragraph-font);
 color: var(--primary-color);
 }
-a {
+*{
 text-decoration: none;
 }
 /*This applies to the whole page*/
@@ -50,7 +50,7 @@ text-decoration: none;
     top: 200px;
     left: 20px;
     right: 20px;
-    text-align: center;
+    text-align: left;
     box-sizing: border-box;
     border: 2px;
 }
@@ -60,6 +60,7 @@ text-decoration: none;
     width: 200px;
     height: 200px;
 }
+
 
 /*THIS CONCLUDES THE REQUIREMENTS*/
 
