@@ -24,6 +24,7 @@ color: var(--primary-color);
 a {
 text-decoration: none;
 }
+/*This applies to the whole page*/
 .container{
     max-width: 1200px;
     margin: auto;
@@ -42,7 +43,7 @@ text-decoration: none;
     right: 10px;
     text-align: center;
 }
-
+/*this includes more details than needed*/
 .box2{
     position:absolute;
     background: var(--nav-link-color);
