@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100&family=Rubik:wght@300&display=swap');
+:root {
+    --primary-color:#12021a ;
+    --secondary-color: #19381f  ;
+    --accent1-color: #4B454E ;
+    --accent2-color: #7ca29d;
+
+    --heading-font: 'Open-sans', Sans-serif;
+    --paragraph-font: 'Rubik', sans-serif;
+
+    --nav-background-color: #180c1d;
+    --secondary-color: #CA9ADF  ;
+    --nav-link-color:  #7ca29d;
+    --nav-hover-link-color: #19381f    ;
+    --nav-hover-background-color: #eee82c;
+ }
+  h1,h2,h3,h4,h5,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--nav-hover-background-color);}
+p {
+font-family: var(--paragraph-font);
+color: var(--primary-color);
+}
+a {
+text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.hero{
+    position:relative;
+    background-image: url(hero.jpg);
+}
+.title-box{
+    position:absolute;
+    background: var(--accent2-color);
+    top: 30px;
+    left: 30px;
+    right: 10px;
+    text-align: center;
+}
+
+.box2{
+    position:absolute;
+    background: var(--nav-link-color);
+    top: 200px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px;
+}
+
+.right {
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
