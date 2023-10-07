@@ -94,9 +94,9 @@ nav {
 }
 .section1 {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 35% 30% 35%;
 grid-gap: 3rem;
-max-width: fit-content;
+width: 100%;
 border: black 20px;
 margin: 5px;
 padding: 5px;
@@ -112,7 +112,7 @@ font-size: 16px;
 .h2header {
     grid-column:2/3;
     grid-row:1/2;
-    padding: 30%;
+    padding: 5%;
     background-color: #180352;
     align-self: self-end;
     
