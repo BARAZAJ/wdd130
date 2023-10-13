@@ -16,7 +16,7 @@
  }
   h1,h2,h3,h4,h5,h5,h6 {
     font-family: var(--heading-font);
-    color: var(--nav-hover-background-color);}
+    color: var(--nav-background-color);}
 p {
 font-family: var(--paragraph-font);
 color: var(--primary-color);
@@ -200,6 +200,128 @@ padding: 5px;
     grid-column: 8/9;
 }
 
+.sectionc{
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+    padding: 5%;
+    background-color: var(--accent1-color);
+
+    
+}
+.profilepicture1{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
+.profilepicture2 {
+    grid: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.profilepicture3 {
+    display:grid;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+}
+.employee_header {
+    display: grid;
+    grid-row: 1 ;
+    grid-column: span 3;
+    justify-items: center;
+    align-items: center;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.paragraphc1{
+    display: grid;
+    grid-area: 3/1/4/2;
+    text-align: center;
+}
+.paragraphc2{
+    display: grid;
+    grid-area: 3/2/4/3;
+    text-align: center;   
+}
+.paragraphc3{
+    display: grid;
+    grid-area: 3/3/4/4;
+    text-align: center;   
+}
+
+
+.sectionc2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+
+table, th,  td {
+    border: 0px solid
+}
+table {
+    width: 100%;
+
+  height: auto;
+  margin: 5px auto;
+  display: block;
+  overflow-x: auto;
+  border-spacing: 20px;
+  font-size: 40px;
+  padding: 20px;
+  background-color: var(--accent2-color);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding-top: 20px;
+    background-color: var(--accent1-color);
+    justify-items: center;
+    padding-bottom: 20px;
+}
+.form_item {
+    padding:2%;
+    font-size: 200%;
+
+}
+input , select {
+    font-size: 80%;
+    padding-left: 20%;
+}
+legend {
+    font-size: 400%;
+    background-color: var(--accent2-color);
+}
+button {
+font-size: 300%;
+background-color: #02ad24;
+border: 10px;
+}
+
+textarea {
+    font-size: 80%;
+    width: 50%;
+    padding-left: 20%;
+
+}
 
 
 
