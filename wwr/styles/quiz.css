@@ -1,0 +1,56 @@
+ input, select, textarea {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 150%;
+width: 75%;
+padding: 20px;
+margin: 0;
+box-sizing: border-box;
+}
+.questions {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    justify-content: c;
+    align-items: start;
+    background-color: rgb(104, 108, 114);
+    padding: 50px 100px 50px 50px;
+    margin: 0;
+    
+}
+
+legend {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: bold;
+font-size: 300%;
+padding: 2px;
+
+
+}
+label {
+    font-size: 2rem;
+    padding: 0%;
+
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+button {
+    font-size: 200%;
+    background-color: rgb(13, 207, 87);
+    padding: 20px;
+    margin-top: 5%;
+}
+
+
+
+
+
+
