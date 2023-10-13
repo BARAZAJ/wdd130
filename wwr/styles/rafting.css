@@ -73,7 +73,7 @@ text-decoration: none;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: auto;
     height: fit-content;
-    background-color:#180352 ;
+    background-color: #7769f1 ;
     padding: 3px;
     
 }
@@ -252,16 +252,19 @@ padding: 5px;
     display: grid;
     grid-area: 3/1/4/2;
     text-align: center;
+    font-size: 150%;
 }
 .paragraphc2{
     display: grid;
     grid-area: 3/2/4/3;
-    text-align: center;   
+    text-align: center; 
+    font-size: 150%;  
 }
 .paragraphc3{
     display: grid;
     grid-area: 3/3/4/4;
-    text-align: center;   
+    text-align: center; 
+    font-size: 150%;  
 }
 
 
@@ -286,6 +289,7 @@ table {
   font-size: 40px;
   padding: 20px;
   background-color: var(--accent2-color);
+  padding-bottom: 43%;
 }
 
 form {
