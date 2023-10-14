@@ -16,7 +16,7 @@
  }
   h1,h2,h3,h4,h5,h5,h6 {
     font-family: var(--heading-font);
-    color: var(--nav-background-color);}
+    color: var(--primary-color);}
 p {
 font-family: var(--paragraph-font);
 color: var(--primary-color);
@@ -247,6 +247,7 @@ padding: 5px;
     align-items: center;
     font-size: 200%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     
 }
 .paragraphc1{
